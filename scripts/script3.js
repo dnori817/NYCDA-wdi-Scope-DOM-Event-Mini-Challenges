@@ -1,6 +1,7 @@
-//Challenge 3
+// Challenge 3
 
-addEventListener("keypress", function(event){
-		// key.innerHTML= event.keyCode;
-		key.innerHTML = String.fromCharCode(event.keyCode);
-} );
+var key = document.getElementById("key");
+
+addEventListener("keypress", function(event) {
+	key.innerHTML = String.fromCharCode(event.keyCode);
+});
